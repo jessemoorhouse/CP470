@@ -1,0 +1,24 @@
+<php?
+$Command = "GO";
+$GameID = 1;
+$StateID = 1;
+?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Welcome to Adventure Game!</title>
+</head>
+<body>
+<input id="Text1" type="text" />
+    <php?
+$text = "";
+if ($text = "GO")
+{
+$_GET = $text;
+}
+else if ($text = "PAUSE")
+{
+$_POST = $text;
+}
+?>
+</body>
+</html>
